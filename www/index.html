@@ -1,0 +1,27 @@
+ALI  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+  <script src="components/loader.js"></script>
+  <script src="components/script.js"></script>
+  <link rel="stylesheet" href="components/loader.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-logo"> ALISTAMENTO<span style="color:green;"> FEB </span> </h1>
+    </header>
+
+    <main class="main">
+        <section class="section-info">
+    <input type="text" id="nome" placeholder="Insira seu nome"></input>
+    <button onclick="ExibirMensagem();">Entrar</button>
+    <input type="number" id="idade" placeholder="Insira sua idade"></input>
+    <button onclick="ExibirDever();">Verificar</button>
+        </section>
+        <section class "section-exit">
+    <button onclick="Sair();">Sair</button>
+        </section>
+    </main>
+</body>
+</html>
